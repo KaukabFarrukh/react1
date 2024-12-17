@@ -1,0 +1,25 @@
+.page{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+  }
+  .about {
+    min-height: 80vh;
+    font-family: 'Lucida Sans', sans-serif;
+    text-align: center;
+    max-width: 1100px;
+    margin-bottom: 30px;
+    padding: 20px;
+  }
+
+  .about h2 {
+    font-size: 36px;
+    color: blue;
+    margin-bottom: 20px;
+}
+
+.about p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
