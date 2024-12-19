@@ -6,11 +6,11 @@ import About from "./pages/About.jsx";
 import Navbar from "./pages/navbar.jsx";
 import Footer from "./pages/footer.jsx";
 import Counter from "./pages/counter.jsx";
+import ColorPicker from "./pages/ColorPicker.jsx";
 
 function App() {
   return (
-    <BrowserRouter>
-      {/* Main container */}
+    <>
       <div style={appStyles}>
         <Navbar />
         <h1 style={headingStyles}>Book Gallery</h1>
@@ -19,10 +19,11 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="*" element={<Gallery />} />
           <Route path="/counter" element={<Counter />} />
+          <Route path="/color-picker" element={<ColorPicker />} />
         </Routes>
         <Footer />
       </div>
-    </BrowserRouter>
+      </>
   );
 }
 

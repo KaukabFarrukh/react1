@@ -1,10 +1,11 @@
 .navContainer {
-    background-color: #1E3A8A;
+    background-color: var(--navbar-bg, #1E3A8A);
     padding: 10px 20px;
     display: flex;
     justify-content: center;
     align-items: center;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease;
   }
   
   .navbar {
@@ -35,13 +36,18 @@
   }
 
   .navLink a {
-    color: #F0F9FF; 
+    color: #1f4bc4; 
+    background-color: #e0e7ff;
     text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, box-shadow 0.3s ease, transform 0.3s ease;
   }
   
   .navLink a:hover {
-    color: #1f4bc4;
-    background-color: #93c5fd;
+    color: #ffffff;
+    background-color: #1f4bc4;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     transform: translateY(-2px);
   }
