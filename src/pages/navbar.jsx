@@ -24,9 +24,12 @@ function Navbar () {
               <Link to="/Counter">Counter</Link>
             </li>
             <li className="navLink">
-              <Link to="/color-picker">Color Picker</Link> {/* New link */}
-            </li>       
-                </ul>
+              <Link to="/color-picker">Color Picker</Link> 
+            </li> 
+            <li className="navLink">
+             <Link to="/to-do-list">To-Do List</Link>
+            </li>
+             </ul>
          </nav>
     </div>
     </header>

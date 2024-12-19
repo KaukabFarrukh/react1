@@ -7,6 +7,7 @@ import Navbar from "./pages/navbar.jsx";
 import Footer from "./pages/footer.jsx";
 import Counter from "./pages/counter.jsx";
 import ColorPicker from "./pages/ColorPicker.jsx";
+import ToDoList from './pages/ToDoList';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           <Route path="*" element={<Gallery />} />
           <Route path="/counter" element={<Counter />} />
           <Route path="/color-picker" element={<ColorPicker />} />
+          <Route path="/to-do-list" element={<ToDoList />} /> 
         </Routes>
         <Footer />
       </div>
